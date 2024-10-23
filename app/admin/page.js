@@ -19,7 +19,7 @@ function AdminPage() {
   }
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [fetchData]);
 
   return (
     <div>

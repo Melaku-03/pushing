@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { BsEye, BsEyeSlash, BsMoonStarsFill, BsSunFill } from "react-icons/bs";
 import axios from 'axios';
 
-function homepage() {
+function Homepage() {
   const [pwdVisible, setPwdVisible] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const [user, setUser] = useState({ email: "", password: "" });
@@ -58,4 +58,4 @@ function homepage() {
   )
 }
 
-export default homepage;
+export default Homepage;
