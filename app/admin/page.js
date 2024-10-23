@@ -6,7 +6,7 @@ import { BsArrowLeft } from 'react-icons/bs';
 
 // icons
 import { BsPencil } from "react-icons/bs"
-function adminPage() {
+function AdminPage() {
   const [users, setUsers] = useState([]);
   const [isLoaded, setIsLoaded] = useState(true);
   const fetchData = async () => {
@@ -98,4 +98,4 @@ function adminPage() {
   )
 }
 
-export default adminPage;
+export default AdminPage;

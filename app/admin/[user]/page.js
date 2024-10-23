@@ -6,7 +6,7 @@ import { BsArrowLeft } from 'react-icons/bs';
 
 import { toast } from 'react-toastify';
 
-function page({ params }) {
+function Page({ params }) {
     const [user, setUser] = useState({});
     const [isLoaded, setIsLoaded] = useState(true);
     const [update, setUpdate] = useState({ account: "", status: "" })
@@ -103,4 +103,4 @@ function page({ params }) {
     )
 }
 
-export default page;
+export default Page;
